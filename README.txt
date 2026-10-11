@@ -59,3 +59,7 @@ GitHub Actions automatically builds the Docker image when changes are pushed or 
 
 ## Limitations
 Authentication and payment are frontend demo features implemented using LocalStorage. The project does not process real payments or provide production-grade authentication. A production deployment would require a secure backend and a real payment gateway.
+### Terraform Infrastructure as Code
+Terraform provisions the local Nexvion Docker container using
+the Docker provider. The application is exposed on port 8083.
+This demonstrates local infrastructure automation, not cloud provisioning.
